@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {TitleH2} from './Section.styled';
+import {Div} from './Section.styled';
 
 function Section({ title, children }) {
   return (
-    <div>
-      <TitleH2>{title}</TitleH2>
+    <Div>
+      <h2>{title}</h2>
       {children}
-    </div>
+    </Div>
   );
 }
 

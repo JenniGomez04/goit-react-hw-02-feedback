@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const TitleH2 = styled.h2`
+export const Div = styled.div`
     padding-left: 16px;
 `;
 
